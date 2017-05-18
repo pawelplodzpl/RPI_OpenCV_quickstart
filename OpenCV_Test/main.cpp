@@ -23,6 +23,7 @@ int main()
     cv::Mat videoFrame;
     cv::namedWindow("Video",cv::WINDOW_AUTOSIZE);
 
+
     cv::VideoCapture cap(0);
     if(!cap.isOpened())
     {
